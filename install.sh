@@ -1,8 +1,8 @@
 # INSTALL
 composer require phpunit/phpunit
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php SimpleTest.php
-./vendor/bin/phpunit --bootstrap vendor/autoload.php UtilsTest.php --log-junit report.xml
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php UtilsTest.php --testdox-html report.html
+./vendor/bin/phpunit --bootstrap vendor/autoload.php UtilsTest.php --log-junit report.xml
 
 # REPORTING
 php -S localhost:8080
